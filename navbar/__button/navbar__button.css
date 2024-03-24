@@ -1,0 +1,11 @@
+.navbar__button {
+  height: 50px;
+  width: 200px;
+  margin: 15px 0px 15px 200px;
+  background-color: rgb(101, 65, 237);
+  border-radius: 50px;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}

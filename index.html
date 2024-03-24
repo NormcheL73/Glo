@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>GloraX Todo Test</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <button class="navbar__button">Заметки</button>
+    </div>
+    <div class="tasklist" style="display: none">
+      <div class="tasklist__title">Заметки на день</div>
+      <div class="tasklist__notification">Список задач пуст</div>
+      <div class="tasklist__list"></div>
+      <div class="tasklist__footer">
+        <input
+          type="text"
+          class="tasklist__input"
+          placeholder="введите текст заметки"
+        />
+        <button class="tasklist__add">+</button>
+        <button class="tasklist__remove">-</button>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

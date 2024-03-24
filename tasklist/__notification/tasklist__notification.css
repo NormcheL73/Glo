@@ -1,0 +1,6 @@
+.tasklist__notification {
+  box-sizing: border-box;
+  margin: 5px auto;
+  padding: 10px 10px;
+  font-size: 14px;
+}

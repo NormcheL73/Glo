@@ -1,0 +1,22 @@
+@import url(navbar/navbar.css);
+@import url(navbar/__button/navbar__button.css);
+@import url(tasklist/tasklist.css);
+@import url(tasklist/__title/tasklist__title.css);
+@import url(tasklist/__label/tasklist__label.css);
+@import url(tasklist/__notification/tasklist__notification.css);
+@import url(tasklist/__input/tasklist__input.css);
+@import url(tasklist/__add/tasklist__add.css);
+@import url(tasklist/__remove/tasklist__remove.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  background-color: #f9f9f9;
+  flex-direction: column;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}

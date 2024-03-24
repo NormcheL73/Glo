@@ -1,0 +1,15 @@
+.tasklist__remove {
+  background: white;
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 5px;
+}
+
+.tasklist__remove:hover {
+  background-color: rgb(238, 237, 237);
+}
+
+.tasklist__remove:active {
+  background-color: rgb(224, 224, 224);
+}

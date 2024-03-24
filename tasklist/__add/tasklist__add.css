@@ -1,0 +1,15 @@
+.tasklist__add {
+  background: white;
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 5px;
+}
+
+.tasklist__add:hover {
+  background-color: rgb(238, 237, 237);
+}
+
+.tasklist__add:active {
+  background-color: rgb(224, 224, 224);
+}
