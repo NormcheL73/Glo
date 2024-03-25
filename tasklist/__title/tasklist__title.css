@@ -1,8 +1,9 @@
-.tasklist {
-  display: inline-block;
-  width: 500px;
-  padding: 15px;
-  margin: 10px 0px 10px 200px;
-  border-radius: 10px;
-  box-shadow: 10px 10px 5px #e9e8e8;
+.tasklist__title {
+  box-sizing: border-box;
+  padding: 10px;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  color: rgb(102, 102, 102);
+  background-color: rgb(185, 233, 250);
 }
